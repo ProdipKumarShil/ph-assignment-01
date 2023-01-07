@@ -64,6 +64,7 @@ header{
 /* my plan section */
 .my-plan-section{
     padding: 0 80px;
+    margin-bottom: 50px;
 }
 .center{
     text-align: center;
@@ -84,4 +85,21 @@ header{
     color: #757575;
     font-size: 20px;
     font-weight: 500
+}
+/* card container */
+.card-section{
+    background-image: url("./images/watch.png"), url("./images/gradient1.png");
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    margin: 50px 190px;
+    border-radius: 10px;
+    
+}
+.card-title{
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 50px 0 0 50px;
+}
+.card-section-container .header-btn{
+    margin: 20px 0 50px 50px
 }
